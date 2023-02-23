@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(128, 128, 128);
+    margin: 0;
+}
+
+#clicker{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 75%;
+    height: 100vh;
+    margin-left: 12.5%;
+}
+
+#shop{
+    background-color: rgb(255, 255, 0);
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+    font: 20px arial;
+    text-align: center;
+}
+
+#main{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+}
+
+#score{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    left: 44%;
+    font: 20px arial;
+    text-align: center;
+    margin: 0;
+}
+
+#mainButton{
+    position: absolute;
+    width: 12%;
+    height: 12%;
+    left: 44%;
+    top: 44%;
+}
+
+#moneyClick{
+    position: absolute;
+    width: 12%;
+    height: 8%;
+    left: 30%;
+    top: 92%;
+    font: 15px arial;
+    text-align: center;
+    margin: 0;
+}
+
+#moneyNoClick{
+    position: absolute;
+    width: 12%;
+    height: 8%;
+    right: 30%;
+    top: 92%;
+    font: 15px arial;
+    text-align: center;
+    margin: 0;
+}
+
+.shopButtons{
+    position: relative;
+    width: 75%;
+    height: 7%;
+    margin: 5px;
+}

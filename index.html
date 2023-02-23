@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Кликер</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="clicker">
+            <div id="main">
+                <p id="score">Счёт:<br>0</p>
+                <button id="mainButton" onclick="clicks(score)">Кликни!</button>
+                <p id="moneyClick">Денег<br>за клик:<br>1</p>
+                <p id="moneyNoClick">Пассивный<br>доход:<br>0</p>
+            </div>
+            <div id="shop">
+                <p>Магазин:</p>
+                <button class="shopButtons" onclick="funcMoneyClick(moneyClick, this, score)">+1 за клик<br>(цена: 50)</button>
+                <button class="shopButtons" onclick="funcMoneyNoClick(moneyNoClick, this, score)">+1 к пассивному доходу<br>(цена: 100)</button>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
